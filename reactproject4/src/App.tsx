@@ -1,5 +1,5 @@
 // src/App.tsx
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import axios from 'axios';
 
 const App = () => {
@@ -49,7 +49,7 @@ const Main = () => {
         <div style={{ flex: 1, padding: '1rem' }}>
             {branch ? (
                 <iframe
-                    src={`https://<username>.github.io/<repo>/${branch}/`}
+                    src={`https://a4-acker.github.io/reactproject3/${branch}/`}
                     style={{ width: '100%', height: '100%', border: 'none' }}
                 />
             ) : (
